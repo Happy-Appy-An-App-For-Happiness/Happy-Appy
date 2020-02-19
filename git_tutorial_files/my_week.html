@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>My Week</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Load plotly.js into the DOM -->
+  <link rel="stylesheet" type="text/css" href="my_week.css">
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <script src="my_week.js"></script>
+</head>
+
+<body>
+  <h1>My Week</h1>
+  <button onclick="plot_week()">Week</button>
+  <button onclick="plot_month()">Month</button>
+  <button onclick="plot_year()">Year</button>
+<div id='Graph'><!-- Plotly chart will be drawn inside this DIV -->
+  </div>
+
+</body>
+
+</html>
