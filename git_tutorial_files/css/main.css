@@ -8,3 +8,15 @@
   margin: 0;
   padding: 0;
 }
+
+#header {
+  background-color: var(--accent-color);
+  height: 3rem;
+  width: 100%;
+}
+
+#menu-button {
+  background-color: var(--secondary-color);
+  height: 2.5rem;
+  width: 2.5rem;
+}
