@@ -49,13 +49,13 @@ week_data=[week]
 month_data = [month]
 year_data = [year]
 const plot_year = () =>{
-  Plotly.newPlot('Graph', year_data, year_layout);
+  Plotly.newPlot('graph', year_data, year_layout);
 }
 
 const plot_week = () =>{
-  Plotly.newPlot('Graph', week_data, week_layout);
+  Plotly.newPlot('graph', week_data, week_layout);
 }
 
 const plot_month = () =>{
-  Plotly.newPlot('Graph', month_data, month_layout);
+  Plotly.newPlot('graph', month_data, month_layout);
 }
