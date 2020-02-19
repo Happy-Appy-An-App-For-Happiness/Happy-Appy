@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 
 <html>
+  
+<head>
+  <title>My Week</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/my_week.css">
+  <!-- Load plotly.js into the DOM -->
+  <link rel="stylesheet" type="text/css" href="my_week.css">
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <script src="my_week.js"></script>
+</head>
 
-    <head>
-        <title>My Week</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/my_week.css">
-    </head>
+<body>
+  <div id="header">
+    <div id="menu-button">Menu</div>
+  </div>
+  <h1>My Week</h1>
+  <a href="my_day.html">My Day</a>
+  <button onclick="plot_week()">Week</button>
+  <button onclick="plot_month()">Month</button>
+  <button onclick="plot_year()">Year</button>
+<div id='Graph'><!-- Plotly chart will be drawn inside this DIV -->
+  </div>
 
-    <body>
-        <div id="header">
-            <div id="menu-button">Menu</div>
-        </div>
-
-        <h1>My Week</h1>
-        <a href="my_day.html">My Day</a>
-    </body>
+</body>
 
 </html>
