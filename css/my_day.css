@@ -5,7 +5,7 @@
 body{
 	display:grid;
 	grid-template-columns:100%;
-	grid-template-rows:20% 80%; 
+	grid-template-rows:10% 90%; 
 	padding: 5px;
 	grid-template-areas:
 	"header"
@@ -16,7 +16,6 @@ body{
 h1{
 	grid-area:header;
 	padding:10px;
-	
 }
 
 form{
@@ -24,23 +23,25 @@ form{
 	justify-contents:center;
 }
 div{
-	padding:5px;
+	padding:10px;
 	margin: 10px;
 	border: 1px solid black;
 }
 
 input[type=text]{
 	width: 100%
-	padding: 5px 5px;
+	padding: 5px;
 	margin:8px 0px;
 }
-.highlights{
+#highlights{
 	width: 100%
+	padding:5px;
+	margin:8px 0px;
 	resize = none;
 }
-.highlights:focus {
-	outline:none;
-	resize:none;
+#files{
+	padding:5px;
+	margin:8px 0px;
 }
 input[type=submit]{
 	background-color: lightblue;
