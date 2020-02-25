@@ -9,14 +9,37 @@
   padding: 0;
 }
 
-#header {
+header {
   background-color: var(--accent-color);
-  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 4rem;
   width: 100%;
 }
 
-#menu-button {
-  background-color: var(--secondary-color);
-  height: 2.5rem;
-  width: 2.5rem;
+#title {
+  margin: auto;
+}
+
+header > a {
+  display: flex;
+  background-color: yellow;
+  color: red;
+  text-decoration: none;
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: auto 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+main {
+  display: block;
+  margin-top: 4rem;
+  /* Fixes weird collapsing margins */
+  padding: 0.1px;
 }
