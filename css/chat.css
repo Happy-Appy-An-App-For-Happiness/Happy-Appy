@@ -1,0 +1,56 @@
+main {
+  margin: auto;
+  display: block;
+  position: relative;
+  height: 100vh;
+}
+
+#messages {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 6rem;
+  width: 100vw;
+  max-height: calc(100vh - 10rem);
+  overflow: auto;
+  padding: 0 1rem;
+}
+.message {
+  display: block;
+  padding: 1rem 2rem;
+  margin-top: 0.5rem;
+}
+
+.user {
+  border-radius: 3rem 3rem 0.5rem 3rem;
+  background-color: #016dd5;
+  color: white;
+  margin-left: 18rem;
+}
+
+.response {
+  border-radius: 3rem 3rem 3rem 0.5rem;
+  background-color: #555555;
+  color: white;
+  margin-right: 18rem;
+}
+
+footer {
+  background-color: tomato;
+  height: 5rem;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+
+#input {
+  display: block;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+  width: 70%;
+  height: 4rem;
+  resize: none;
+  font-size: 1rem;
+  vertical-align: middle;
+}
