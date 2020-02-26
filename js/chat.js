@@ -6,6 +6,7 @@ const postMessage = ()=> {
   let message_arr = ["Hi!", "I hope you are doing great today!", "You've got this!", "Everything's going to be okay!"];
 
   let message = document.querySelector("#input").value;
+  document.querySelector("#input").value = "";
   let div_elem = document.createElement("div");
   div_elem.className = "user";
   let p_elem = document.createElement("p");
