@@ -2,21 +2,21 @@ main {
   margin: auto;
   display: block;
   position: relative;
-  height: 100vh;
+  top: 4rem;
+  height: calc(100vh - 9rem);
 }
 
 #messages {
   display: flex;
   flex-direction: column;
   position: absolute;
-  bottom: 6rem;
+  bottom: 0;
   width: 100vw;
-  max-height: calc(100vh - 10rem);
+  max-height: 100%;
   overflow: auto;
-  padding: 0 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 .message {
-  display: block;
   padding: 1rem 2rem;
   margin-top: 0.5rem;
 }
@@ -25,14 +25,14 @@ main {
   border-radius: 3rem 3rem 0.5rem 3rem;
   background-color: #016dd5;
   color: white;
-  margin-left: 18rem;
+  margin-left: 40vw;
 }
 
 .response {
   border-radius: 3rem 3rem 3rem 0.5rem;
   background-color: #555555;
   color: white;
-  margin-right: 18rem;
+  margin-right: 40vw;
 }
 
 footer {
