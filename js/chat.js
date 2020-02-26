@@ -1,9 +1,10 @@
-
-
-
-const postMessage = ()=> {
-
-  let message_arr = ["Hi!", "I hope you are doing great today!", "You've got this!", "Everything's going to be okay!"];
+const postMessage = () => {
+  let message_arr = [
+    "Hi!",
+    "I hope you are doing great today!",
+    "You've got this!",
+    "Everything's going to be okay!"
+  ];
 
   let message = document.querySelector("#input").value;
   let div_elem = document.createElement("div");
@@ -12,7 +13,7 @@ const postMessage = ()=> {
   div_elem.appendChild(p_elem);
 
   document.querySelector("#messages").appendChild(div_elem);
-  p_elem.innerText= message;
+  p_elem.innerText = message;
 
   let response_div = document.createElement("div");
   let response_p = document.createElement("p");
@@ -32,7 +33,5 @@ document.addEventListener("DOMContentLoaded", function() {
       ev.preventDefault();
       postMessage();
     }
-  }
+  };
 });
-
-
