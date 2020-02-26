@@ -7,6 +7,7 @@ const postMessage = () => {
   ];
 
   let message = document.querySelector("#input").value;
+  document.querySelector("#input").value = "";
   let div_elem = document.createElement("div");
   div_elem.className = "user";
   let p_elem = document.createElement("p");
