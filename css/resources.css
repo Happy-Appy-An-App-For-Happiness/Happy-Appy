@@ -10,7 +10,7 @@ nav {
 }
 
 nav > a {
-  background-color: var(--accent-color);
+  background-color: var(--red);
   color: black;
   margin: 1rem;
   padding: 2rem;
