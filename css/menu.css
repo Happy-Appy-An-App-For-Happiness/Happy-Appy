@@ -3,10 +3,81 @@ nav {
   flex-direction: column;
 }
 
+body{
+  background-color: #f1f1f1
+}
+
 nav > a {
   background-color: var(--accent-color);
   color: black;
   margin: 1rem;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+#week{
+
+  background-color: #e17274;
+  width: 100px;
+  height: 100px;
+  font-family: 'Indie Flower';
+  font-size: 18px;
+  color: #4d4d4d;
+  border-radius: 100%;
+  margin-left: 750px;
+  padding: 2rem;
+  text-decoration: none;
+
+}
+
+#friends{
+
+  background-color: #e17274;
+  width: 100px;
+  height: 100px;
+  font-family: 'Indie Flower';
+  font-size: 18px;
+  color: #4d4d4d;
+  border-radius: 100%;
+  margin-left: 300px;
+  padding: 2rem;
+  text-decoration: none;
+
+}
+
+#explore{
+  background-color:#77c2be;
+  width: 100px;
+  height: 100px;
+  font-family: 'Indie Flower';
+  color: #4d4d4d;
+  border-radius: 100%;
+  margin-left: 600px;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+#resources{
+  background-color:#e17274;
+  width: 100px;
+  height: 100px;
+  font-family: 'Indie Flower';
+  color: #4d4d4d;
+  border-radius: 100%;
+  margin-left: 950px;
+  padding: 2rem;
+  text-decoration: none;
+  margin-bottom: 50px
+}
+
+#progress{
+  background-color:#77c2be;
+  width: 100px;
+  height: 100px;
+  font-family: 'Indie Flower';
+  color: #4d4d4d;
+  border-radius: 100%;
+  margin-left: 70px;
   padding: 2rem;
   text-decoration: none;
 }
