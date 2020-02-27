@@ -1,16 +1,20 @@
 :root {
-  --accent-color: #01befe;
-  --secondary-color: #e4c1f9;
+  --white: #f1f1f1;
+  --blue: #77c2be;
+  --green: #cddc88;
+  --red: #e17274;
+  --black: #4d4d4d;
 }
 
 * {
+  font-family: "Indie Flower";
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: var(--accent-color);
+  background-color: var(--blue);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -26,8 +30,8 @@ header {
 
 header > a {
   display: flex;
-  background-color: yellow;
-  color: red;
+  background-color: var(--white);
+  color: var(--black);
   text-decoration: none;
   height: 3.5rem;
   width: 3.5rem;
