@@ -1,45 +1,54 @@
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
 }
 
 body{
-  background-color: #f1f1f1
+  /* background-color: #f1f1f1 */
+  background-image: linear-gradient(to right, #ffafbd,#ffc3a0);
 }
 
-nav > a {
+nav > a{
   background-color: var(--accent-color);
-  color: black;
   margin: 1rem;
   padding: 2rem;
   text-decoration: none;
+  opacity:.7;
+}
+
+label{
+  width:100%;
+  text-align:center;
+  font-size:40px;
+  font-family:'Indie Flower';
+  color:#4d4d4d
 }
 
 #week{
-
   background-color: #e17274;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   font-family: 'Indie Flower';
-  font-size: 18px;
+  font-size: 25px;
   color: #4d4d4d;
   border-radius: 100%;
-  margin-left: 750px;
   padding: 2rem;
   text-decoration: none;
-
+  text-align:center;
 }
 
 #friends{
-
   background-color: #e17274;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   font-family: 'Indie Flower';
-  font-size: 18px;
+  text-align:center;
+  font-size: 25px;
   color: #4d4d4d;
   border-radius: 100%;
-  margin-left: 300px;
   padding: 2rem;
   text-decoration: none;
 
@@ -47,37 +56,64 @@ nav > a {
 
 #explore{
   background-color:#77c2be;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   font-family: 'Indie Flower';
+  text-align:center;
+  font-size:25px;
   color: #4d4d4d;
   border-radius: 100%;
-  margin-left: 600px;
   padding: 2rem;
   text-decoration: none;
 }
 
 #resources{
   background-color:#e17274;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   font-family: 'Indie Flower';
+  text-align:center;
+  font-size:25px;
   color: #4d4d4d;
   border-radius: 100%;
-  margin-left: 950px;
   padding: 2rem;
   text-decoration: none;
-  margin-bottom: 50px
 }
 
 #progress{
   background-color:#77c2be;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   font-family: 'Indie Flower';
+  font-size:25px;
+  text-align:center;
   color: #4d4d4d;
   border-radius: 100%;
-  margin-left: 70px;
   padding: 2rem;
   text-decoration: none;
+}
+a#progress:hover{
+  opacity:100%;
+  box-shadow:5px 5px 2px grey;
+  text-decoration:underline;
+}
+a#friends:hover{
+  opacity:100%;
+  box-shadow:5px 5px 2px grey;
+  text-decoration:underline;
+}
+a#resources:hover{
+  opacity:100%;
+  box-shadow:5px 5px 2px grey;
+  text-decoration:underline;
+}
+a#explore:hover{
+  opacity:100%;
+  box-shadow:5px 5px 2px grey;
+  text-decoration:underline;
+}
+a#week:hover{
+  opacity:100%;
+  box-shadow:5px 5px 2px grey;
+  text-decoration:underline;
 }
