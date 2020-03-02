@@ -59,3 +59,18 @@ const plot_week = () =>{
 const plot_month = () =>{
   Plotly.newPlot('graph', month_data, month_layout);
 }
+
+ function loadPage(){
+   document.querySelector("button").click();
+   if(document.querySelector('button').clicked == true){
+     document.querySelector("button").style.opacity="1";
+     document.querySelector("button").style.textDecoration="underline";
+   }
+   else{
+     document.querySelector("button").style.opacity=".6";
+     document.querySelector("button").style.textDecoration="none";
+   };
+}
+// document.addEventListener("DOMContentLoaded", function() {
+// 	document.querySelector("button").click();
+// });
