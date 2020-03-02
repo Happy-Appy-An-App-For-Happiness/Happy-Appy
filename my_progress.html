@@ -14,11 +14,16 @@
     </head>
 
     <body>
-        <h1>My Progress</h1>
+      <header>
+        <a id="menu-button" href="menu.html">Menu</a>
+        <h1 id="title">My Progress</h1>
+      </header>
+      <main>
         <button onclick="plot_week()">Week</button>
         <button onclick="plot_month()">Month</button>
         <button onclick="plot_year()">Year</button>
         <div id='graph'><!-- Plotly chart will be drawn inside this DIV --></div>
+      </main>
     </body>
 
 </html>
