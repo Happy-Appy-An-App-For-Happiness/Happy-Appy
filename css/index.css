@@ -1,20 +1,52 @@
-h1  {
-  font-family: 'Indie Flower';
-  font-size: 75px;
-  display: block;
-  margin-top: 2rem;
-  padding: 1rem;
-  text-align: center;
+div  {
+  text-align:center;
+  font-size:60px;
+  color:white;
+  margin-top:40px;
+  font-family:"indie flower"
 }
 
-h1 > a{
+.btn{
+  all:unset;
+  color:white;
+  position:absolute;
+  display: block;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  margin:auto;
+  width:50px;
+  height:50px;
+  z-index:2;
+  cursor: pointer;
+  font-size:45px;
+  background:transparent;
+}
+
+/* h1 > a{
   text-decoration: none;
   color: black;
-}
+} */
 
 
-body{
+/* body{
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("https://images.pexels.com/photos/2740956/pexels-photo-2740956.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+} */
+
+body {
+  overflow: hidden;
+  background-color: #8aa7ec;
+  /* background-image: linear-gradient(45deg,#77c2be,#e17274); */
+  /* background-image: linear-gradient(45deg,#ffafbd,#ffc3a0); */
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+  /* background-image: linear-gradient(90deg, rgba(39,143,226,1) 0%, rgba(196,120,250,1) 100%); */
+  /* background-image: linear-gradient(45deg,#a18cd1,#fbc2eb); */
+  background-image: linear-gradient(45deg,#CBBACC,#2580B3);
+  height:100%;
+  margin:0px;
+  background-repeat:no-no-repeat;
+  background-attachment: fixed;
 }
