@@ -1,0 +1,12 @@
+
+
+
+body {
+    overflow: hidden;
+    background-color: #8aa7ec;
+    background-image: linear-gradient(135deg, #CBBACC,#2580B3);
+    height:100%;
+    margin:0px;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
