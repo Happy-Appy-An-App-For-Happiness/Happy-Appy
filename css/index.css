@@ -8,6 +8,7 @@ div  {
 
 .btn{
   all:unset;
+  border:none;
   color:white;
   position:absolute;
   display: block;
