@@ -7,17 +7,17 @@
 }
 
 * {
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-
 header {
   font-family: "Indie Flower";
-  color:black;
-  background-color: lightgray;
+  color: black;
+  /* background-color: lightgray; */
+  /* background-color: var(--blue); */
+  background-image: radial-gradient(10rem 3rem, var(--green), var(--blue));
   display: flex;
   flex-direction: row;
   justify-content: space-between;
