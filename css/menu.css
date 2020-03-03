@@ -11,9 +11,12 @@ body {
   background-color: #8aa7ec;
   /* background-image: linear-gradient(45deg, #cbbacc, #2580b3); */
   background-image: linear-gradient(45deg, var(--green), var(--blue));
+  background-image: radial-gradient(circle, var(--green), var(--blue));
+  /* background-image: radial-gradient(circle, var(--red), var(--black)); */
+  /* background-image: linear-gradient(45deg, var(--blue), var(--green)); */
   height: 100%;
   margin: 0px;
-  background-repeat: no-no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
