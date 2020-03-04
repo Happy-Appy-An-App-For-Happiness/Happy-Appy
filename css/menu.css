@@ -10,9 +10,9 @@ body {
   overflow: hidden;
   background-color: #8aa7ec;
   /* background-image: linear-gradient(45deg, #cbbacc, #2580b3); */
-  /* background-image: linear-gradient(45deg, var(--green), var(--blue)); */
-  /* background-image: radial-gradient(circle, var(--green), var(--blue)); */
-  background-image: radial-gradient(circle, #96E4DF, #4DCCC6);
+  background-image: linear-gradient(45deg, var(--green), var(--blue));
+  background-image: radial-gradient(circle, var(--green), var(--blue));
+  /* background-image: radial-gradient(circle, var(--blue), var(--green)); */
   /* background-image: radial-gradient(circle, var(--red), var(--black)); */
   /* background-image: linear-gradient(45deg, var(--blue), var(--green)); */
   height: 100%;
