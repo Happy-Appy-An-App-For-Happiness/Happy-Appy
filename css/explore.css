@@ -10,7 +10,8 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  overflow: scroll;
+  overflow: wrap;
+  justify-content: space-around;
 }
 a{
     display: block;
@@ -22,4 +23,18 @@ a{
 
 a:hover{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#search{
+  height:40px;
+  margin:2rem;
+  padding:10px;
+  font-size:17px;
+  border:2px solid var(--black);
+  width:200px;
+  border-radius:5px;
+}
+div{
+  order:-1;
+  flex: 1 0 100%;
+  overflow:hidden;
 }
