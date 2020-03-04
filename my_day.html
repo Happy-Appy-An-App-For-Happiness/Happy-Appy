@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>My Day</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-   	    <link rel="stylesheet" type="text/css" href="css/my_day.css">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    </head>
+<head>
+  <title>My Day</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/my_day.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <h1>My Day</h1>
-	
-        <form>
-            <ul>
-                <div>
-                    <label for="bestThing">Best thing from today:</label><br>
-                    <input type="text" id="bestThing" name ="bestThing" placeholder="Best thing from today...">
-                </div>
-                <div>
-                    <label for="highlights">Other highlights from today:</label><br>
-                    <textarea rows="3" id="highlights" name="highlights" placeholder="Other highlights from today..."></textarea> 
-                </div>
-                <div>
-                    <label for ="range">My Mood:</label><br>
-		    <label for ="unhappy">Unhappy</label>
-                    <input type="range" min="1" max="10" value="5" id="mood" name="mood">
-		    <label for="happy">Happy</label>
-                </div>
-                
-                <div>
-                    <label for="files">Enter an image, video, or file from today!</label><br>
-                    <input type="file" id="files" name="files"><br>
-                </div>
-		<div>
-		    <label for="lookingForward">What are you looking forward to?</label><br>
-		    <input type="text" id="lookingForward" name="lookingForward" placeholder="I'm looking forward to...">
-                </div>
-		<div>
- 		    <input type="submit" value="Submit">
-                </div>
-            </ul>
-        </form>
-    </body>
+<body>
+  <h1>My Day</h1>
+  <form name="myDay" action="my_week.html">
+    <ul>
+      <div>
+        <label for="bestThing">Best thing from today:</label><br>
+        <input type="text" id="bestThing" name ="bestThing" placeholder="Best thing from today...">
+      </div>
+      <div>
+        <label for="highlights">Other highlights from today:</label><br>
+        <textarea rows="3" id="highlights" name="highlights" placeholder="Other highlights from today..."></textarea>
+      </div>
+      <div>
+        <label for ="range">My Mood:</label><br>
+        <label for ="unhappy">Unhappy</label>
+        <input type="range" min="1" max="10" value="5" id="mood" name="mood">
+        <label for="happy">Happy</label>
+      </div>
+
+      <div>
+        <label for="files">Enter an image, video, or file from today!</label><br>
+        <input type="file" id="files" name="files"><br>
+      </div>
+      <div>
+        <label for="lookingForward">What are you looking forward to?</label><br>
+        <input type="text" id="lookingForward" name="lookingForward" placeholder="I'm looking forward to...">
+      </div>
+      <div>
+        <input type="submit" id="submit" value="Submit">
+      </div>
+    </ul>
+  </form>
+</body>
+<script src="js/my_day.js"></script>
 </html>

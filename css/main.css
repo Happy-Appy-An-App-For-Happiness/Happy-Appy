@@ -1,23 +1,23 @@
 :root {
   --white: #f1f1f1;
-  --blue: #77c2be;
-  --green: #cddc88;
-  --red: #e17274;
+  --green: #c8de7c;
+  --blue: #5bc4bf;
+  --red: #f16a71;
   --black: #4d4d4d;
 }
 
 * {
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-
 header {
   font-family: "Indie Flower";
-  color:black;
-  background-color: lightgray;
+  color: black;
+  /* background-color: lightgray; */
+  /* background-color: var(--blue); */
+  background-image: radial-gradient(10rem 3rem, var(--green), var(--blue));
   display: flex;
   flex-direction: row;
   justify-content: space-between;

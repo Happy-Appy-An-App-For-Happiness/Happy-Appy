@@ -1,12 +1,25 @@
-
-
-
 body {
-    overflow: hidden;
-    background-color: #8aa7ec;
-    background-image: linear-gradient(135deg, #CBBACC,#2580B3);
-    height:100%;
-    margin:0px;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
+  background-color: #8aa7ec;
+  background-image: linear-gradient(135deg, #cbbacc, #2580b3);
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+a{
+    display: block;
+    border: solid 2px black;
+    border-radius: 2rem;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+a:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

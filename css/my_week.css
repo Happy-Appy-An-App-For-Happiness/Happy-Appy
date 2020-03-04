@@ -3,4 +3,23 @@ main > a {
   background-color: pink;
   padding: 2rem;
   margin: 2rem;
+  border-radius: 25px
+}
+
+a:hover{
+	background-color: lightblue;
+
+}
+
+b{
+display: block;
+  background-color: pink; 
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 25px
+}
+
+b:hover{
+	background-color: lightblue;
+
 }
