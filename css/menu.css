@@ -9,20 +9,24 @@
 body {
   overflow: hidden;
   background-color: #8aa7ec;
-  background-image: linear-gradient(45deg,#CBBACC,#2580B3);
-  height:100%;
-  margin:0px;
-  background-repeat:no-repeat;
+  /* background-image: linear-gradient(45deg, #cbbacc, #2580b3); */
+  background-image: linear-gradient(45deg, var(--green), var(--blue));
+  background-image: radial-gradient(circle, var(--green), var(--blue));
+  /* background-image: radial-gradient(circle, var(--blue), var(--green)); */
+  /* background-image: radial-gradient(circle, var(--red), var(--black)); */
+  /* background-image: linear-gradient(45deg, var(--blue), var(--green)); */
+  height: 100%;
+  margin: 0px;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-body div{
-  text-align:center;
-  font-size:60px;
-  color:white;
-  margin-top:40px;
-  font-family:"indie flower"
-
+body div {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-top: 40px;
+  font-family: "indie flower";
 }
 
 .menu-toggler{
