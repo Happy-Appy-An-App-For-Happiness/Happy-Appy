@@ -1,8 +1,9 @@
 :root {
-  --white: #f1f1f1;
-  --green: #c8de7c;
-  --blue: #5bc4bf;
-  --red: #f16a71;
+  --ltblue: #96E4Df;
+  --blue: #4DCCC6;
+  --pink: #F2BAC9;
+  --yellow: #f2E2BA;
+  --green: #BAF2BB;
   --black: #4d4d4d;
 }
 
@@ -14,10 +15,11 @@
 
 header {
   font-family: "Indie Flower";
-  color: black;
+  color: white;
   /* background-color: lightgray; */
   /* background-color: var(--blue); */
-  background-image: radial-gradient(10rem 3rem, var(--green), var(--blue));
+  /* background-image: radial-gradient(10rem 3rem, var(--green), var(--blue)); */
+  background-color:var(--ltblue);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,7 +35,7 @@ header {
 
 header > a {
   display: flex;
-  background-color: var(--white);
+  background-color: var(--pink);
   color: var(--black);
   text-decoration: none;
   height: 3.5rem;
@@ -42,8 +44,11 @@ header > a {
   align-items: center;
   justify-content: center;
   border-radius: 100%;
+  border: solid var(--black) 2px;
 }
-
+header > a:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 main {
   display: block;
   margin-top: 4rem;
