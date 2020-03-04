@@ -9,77 +9,80 @@
 body {
   overflow: hidden;
   background-color: #8aa7ec;
-  background-image: linear-gradient(45deg,#CBBACC,#2580B3);
-  height:100%;
-  margin:0px;
-  background-repeat:no-repeat;
+  /* background-image: linear-gradient(45deg, #cbbacc, #2580b3); */
+  background-image: linear-gradient(45deg, var(--green), var(--blue));
+  background-image: radial-gradient(circle, var(--green), var(--blue));
+  /* background-image: radial-gradient(circle, var(--red), var(--black)); */
+  /* background-image: linear-gradient(45deg, var(--blue), var(--green)); */
+  height: 100%;
+  margin: 0px;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-body div{
-  text-align:center;
-  font-size:60px;
-  color:white;
-  margin-top:40px;
-  font-family:"indie flower"
-
+body div {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-top: 40px;
+  font-family: "indie flower";
 }
 
-.menu-toggler{
-  position:absolute;
+.menu-toggler {
+  position: absolute;
   display: block;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
-  margin:auto;
-  width:50px;
-  height:50px;
-  z-index:2;
-  opacity:0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  opacity: 0;
   cursor: pointer;
 }
 .menu-toggler:hover + label,
 .menu-toggler:hover + label:before,
-.menu-toggler:hover + label:after,{
-  background-color:white;
-}
+/* .menu-toggler:hover + label:after { */
+/*   background-color: white; */
+/* } */
 
 .menu-toggler:checked + label:before {
   content: "\f582";
-  font-family: 'Font Awesome 5 Free';
-  font-weight:900;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   font-size: 45px;
-  color:white;
-  height:50px;
-  width:50px;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
-  margin:auto;
-  text-align:center;
-  vertical-align:middle;
-  line-height:50px;
-  background:transparent;
+  color: white;
+  height: 50px;
+  width: 50px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background: transparent;
 }
 
 .menu-toggler:not(:checked) + label:before {
   content: "\f118";
-  font-family: 'Font Awesome 5 Free';
-  color:white;
+  font-family: "Font Awesome 5 Free";
+  color: white;
   font-size: 45px;
-  height:50px;
-  width:50px;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
-  margin:auto;
-  text-align:center;
-  vertical-align:middle;
-  line-height:50px;
-  background:transparent;
+  height: 50px;
+  width: 50px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background: transparent;
 }
 
 .menu-toggler:checked ~ ul .menu-item {
@@ -100,20 +103,20 @@ body div{
 .menu-toggler:checked ~ ul .menu-item:nth-child(5) {
   transform: rotate(288deg) translateX(-110px);
 }
-.menu-toggler:checked ~ ul .menu-item a{
-  pointer-events:auto;
+.menu-toggler:checked ~ ul .menu-item a {
+  pointer-events: auto;
 }
 
 .menu-toggler + label:before,
 .menu-toggler + label:after {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    content: "";
-    position: absolute;
-    display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  content: "";
+  position: absolute;
+  display: block;
 }
 .menu-item:nth-child(1) a {
   transform: rotate(0deg);
@@ -131,23 +134,23 @@ body div{
   transform: rotate(-288deg);
 }
 .menu-item {
-position: absolute;
- display: block;
- top: 0;
- bottom: 0;
- left: 0;
- right: 0;
- margin: auto;
- width: 80px;
- height: 80px;
- opacity: 0;
- transition: 0.5s;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  transition: 0.5s;
 }
 .menu-item a {
   display: block;
   width: 125px;
   height: 125px;
-  margin:100px;
+  margin: 100px;
   color: rgba(255, 255, 255, 0.8);
   background: rgba(230, 230, 250, 0.3);
   border-radius: 50%;
@@ -156,22 +159,20 @@ position: absolute;
   font-size: 25px;
   pointer-events: none;
   transition: 0.2s;
-  font-family: 'Indie Flower';
-  vertical-align:middle;
-  line-height:125px;
+  font-family: "Indie Flower";
+  vertical-align: middle;
+  line-height: 125px;
 }
 
-#progress{
-  line-height:50px;
+#progress {
+  line-height: 50px;
 }
 .menu-item a:hover {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
   color: white;
   background: rgba(255, 255, 255, 0.3);
-  font-size: 26px
+  font-size: 26px;
 }
-
-
 
 /*
 nav > a{
