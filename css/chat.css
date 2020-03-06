@@ -36,7 +36,10 @@ main {
 }
 
 footer {
-  background-color: tomato;
+  display:flex;
+  flex-direction: row;
+  background-color: var(--pink);
+  justify-content: center;
   height: 5rem;
   width: 100vw;
   position: fixed;
@@ -47,10 +50,24 @@ footer {
   display: block;
   border-radius: 1rem;
   padding: 0.5rem;
-  margin: 0.5rem auto;
+  margin-top: 0.5rem;
+  margin-bottom:.5rem;
+  margin-right: .5rem;
   width: 70%;
   height: 4rem;
   resize: none;
-  font-size: 1rem;
+  font-size: 20px;
   vertical-align: middle;
+  font-family: "indie flower";
+}
+button{
+  font-size:1rem;
+  margin-top:.5rem;
+  margin-bottom: .5rem;
+  margin-left:none;
+  vertical-align: middle;
+  height: 4rem;
+  width:60px;
+  border-radius: 1rem;
+  background-color: var(--ltblue);
 }
