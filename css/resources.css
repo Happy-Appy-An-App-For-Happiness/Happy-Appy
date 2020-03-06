@@ -8,10 +8,14 @@ nav {
 main > a {
   display:block;
   background-color: var(--green);
-  color: var(--black);
+  color: black;
   margin: 2rem;
   padding: 2rem;
   text-decoration: none;
+  border-radius:1.5rem;
+  font-family:'Indie Flower';
+  border: 2px var(--black) solid;
+  font-weight: bold;
 }
 main >a:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

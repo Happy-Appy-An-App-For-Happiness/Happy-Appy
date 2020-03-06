@@ -9,4 +9,4 @@ function delineate(str)
   return(str.replace(/\+/g," "));
 }
 
-document.querySelector("main a").innerHTML = document.querySelector("main a").innerHTML + "<a>: "+delineate(text)+"</a>";
+document.querySelector("main a").innerHTML = "My Day: " + delineate(text);
