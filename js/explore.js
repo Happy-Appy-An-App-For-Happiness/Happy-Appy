@@ -33,10 +33,10 @@ const getYoutube = term => {
   )
     .then(response => response.json())
     .then(data => {
-      const main = document.querySelector("main");
+      const content = document.querySelector("#content");
       for (const video of data) {
         const a = document.createElement("a");
-        main.appendChild(a);
+        content.appendChild(a);
         a.innerText = video.title;
         a.href = video.url;
         const str =
