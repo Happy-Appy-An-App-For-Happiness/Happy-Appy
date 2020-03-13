@@ -1,9 +1,9 @@
 :root {
-  --ltblue: #96E4Df;
-  --blue: #4DCCC6;
-  --pink: #F2BAC9;
-  --yellow: #f2E2BA;
-  --green: #BAF2BB;
+  --ltblue: #96e4df;
+  --blue: #4dccc6;
+  --pink: #f2bac9;
+  --yellow: #f2e2ba;
+  --green: #baf2bb;
   --black: #4d4d4d;
 }
 
@@ -16,10 +16,7 @@
 header {
   font-family: "Indie Flower";
   color: white;
-  /* background-color: lightgray; */
-  /* background-color: var(--blue); */
-  /* background-image: radial-gradient(10rem 3rem, var(--green), var(--blue)); */
-  background-color:var(--ltblue);
+  background-color: var(--ltblue);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,11 +30,7 @@ header {
   margin: auto;
 }
 
-#profile-button{
-  visibility:hidden;
-}
-
-#menu-button {
+header > a {
   display: flex;
   background-color: var(--pink);
   color: var(--black);
@@ -49,9 +42,14 @@ header {
   justify-content: center;
   border-radius: 100%;
   border: solid var(--black) 2px;
-  font-weight:bold;
+  font-weight: bold;
 }
-header > a:hover{
+
+#profile-button {
+  visibility: hidden;
+}
+
+header > a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main {
