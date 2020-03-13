@@ -9,20 +9,14 @@
 body {
   overflow: hidden;
   background-color: #8aa7ec;
-  /* background-image: linear-gradient(45deg, #cbbacc, #2580b3); */
-  /* background-image: linear-gradient(45deg, var(--green), var(--blue)); */
-  /* background-image: radial-gradient(circle, var(--green), var(--blue)); */
-    background-image: radial-gradient(circle, var(--ltblue), var(--blue));
-  /* background-image: radial-gradient(circle, var(--blue), var(--green)); */
-  /* background-image: radial-gradient(circle, var(--red), var(--black)); */
-  /* background-image: linear-gradient(45deg, var(--blue), var(--green)); */
+  background-image: radial-gradient(circle, var(--ltblue), var(--blue));
   height: 100%;
   margin: 0px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-body div {
+body > h1 {
   text-align: center;
   font-size: 60px;
   color: white;
@@ -166,120 +160,9 @@ body div {
   line-height: 125px;
 }
 
-#progress {
-  line-height: 50px;
-}
 .menu-item a:hover {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
   color: white;
   background: rgba(255, 255, 255, 0.3);
   font-size: 26px;
 }
-
-/*
-nav > a{
-  background-color: var(--accent-color);
-  margin: 1rem;
-  padding: 2rem;
-  text-decoration: none;
-  opacity:.7;
-}
-
-label{
-  width:100%;
-  text-align:center;
-  font-size:40px;
-  font-family:'Indie Flower';
-  color:#4d4d4d
-}
-
-#week{
-  background-color: #e17274;
-  width: 150px;
-  height: 150px;
-  font-family: 'Indie Flower';
-  font-size: 25px;
-  color: #4d4d4d;
-  border-radius: 100%;
-  padding: 2rem;
-  text-decoration: none;
-  text-align:center;
-}
-
-#friends{
-  background-color: #e17274;
-  width: 150px;
-  height: 150px;
-  font-family: 'Indie Flower';
-  text-align:center;
-  font-size: 25px;
-  color: #4d4d4d;
-  border-radius: 100%;
-  padding: 2rem;
-  text-decoration: none;
-
-}
-
-#explore{
-  background-color:#77c2be;
-  width: 150px;
-  height: 150px;
-  font-family: 'Indie Flower';
-  text-align:center;
-  font-size:25px;
-  color: #4d4d4d;
-  border-radius: 100%;
-  padding: 2rem;
-  text-decoration: none;
-}
-
-#resources{
-  background-color:#e17274;
-  width: 150px;
-  height: 150px;
-  font-family: 'Indie Flower';
-  text-align:center;
-  font-size:25px;
-  color: #4d4d4d;
-  border-radius: 100%;
-  padding: 2rem;
-  text-decoration: none;
-}
-
-#progress{
-  background-color:#77c2be;
-  width: 150px;
-  height: 150px;
-  font-family: 'Indie Flower';
-  font-size:25px;
-  text-align:center;
-  color: #4d4d4d;
-  border-radius: 100%;
-  padding: 2rem;
-  text-decoration: none;
-}
-a#progress:hover{
-  opacity:100%;
-  box-shadow:5px 5px 2px grey;
-  text-decoration:underline;
-}
-a#friends:hover{
-  opacity:100%;
-  box-shadow:5px 5px 2px grey;
-  text-decoration:underline;
-}
-a#resources:hover{
-  opacity:100%;
-  box-shadow:5px 5px 2px grey;
-  text-decoration:underline;
-}
-a#explore:hover{
-  opacity:100%;
-  box-shadow:5px 5px 2px grey;
-  text-decoration:underline;
-}
-a#week:hover{
-  opacity:100%;
-  box-shadow:5px 5px 2px grey;
-  text-decoration:underline;
-} */
