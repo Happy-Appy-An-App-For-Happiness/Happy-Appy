@@ -32,35 +32,35 @@ We created a paper prototype of our website with the features we planned to incl
 From this testing, we learned that we needed to relabel some of the page names to better describe what the user was supposed to do on each page. Additionally, we learned that the users sometimes didn’t end up reading or noticing everything on the screen when they were focused on completing a specific task, especially if it was in a list form. Because of this, we decided to reformat our menu page so that this would no longer be as much of an issue. 
 
 
-![paper1](/images/readme_images/paper1.img)
-![paper2](/images/readme_images/paper2.img)
-![paper3](/images/readme_images/paper3.img)
-![paper4](/images/readme_images/paper4.img)
-![paper5](/images/readme_images/paper5.img)
-![paper6](/images/readme_images/paper6.img)
-![paper7](/images/readme_images/paper7.img)
-![paper8](/images/readme_images/paper8.img)
-![paper9](/images/readme_images/paper9.img)
+![paper1](/images/readme_images/paper1.png)
+![paper2](/images/readme_images/paper2.png)
+![paper3](/images/readme_images/paper3.png)
+![paper4](/images/readme_images/paper4.png)
+![paper5](/images/readme_images/paper5.png)
+![paper6](/images/readme_images/paper6.png)
+![paper7](/images/readme_images/paper7.png)
+![paper8](/images/readme_images/paper8.png)
+![paper9](/images/readme_images/paper9.png)
 Figures 1-9: Paper Prototype
 High-Fidelity Prototyping 
 Component/Task 1:
 We chose the Data Visualization component, which showed three different graphs on our My Progress page. The three graphs are only shown when a button is selected for week, month, or year. 
 The task we have decided to implement for this component involved the My Progress task page (Figure 10). We wanted a possible user to view their happiness progression in three different graphs: day, month, and year. By clicking one of the three buttons on the site (week, month, or year), the user is able to toggle through the three different data visualizations. 
 
-![progress](/images/readme_images/progress.img)
+![progress](/images/readme_images/progress.png)
 Figure 10: My Progress Page
 Component/Task 2:
 The second component we chose to implement was the Data Collection component. We created a form that had 3 areas where the user is able to enter text, an area where a sliding scale is used, a file component, and a submit button (Figure 11). Our form supports data validation by implementing the file and slider components. Both elements restrict the user to their specific types of outputs. 
 The task we chose to implement was for the data collection component involved the user to write about any highlights they might’ve had throughout the day. This would be done by going to the My Day tab linked through the My Week page on the menu, filling out a form, and then clicking submit. 
 
-![my_day](/images/readme_images/my_day.img)
+![my_day](/images/readme_images/my_day.png)
 Figure 11: My Day Form
 Component/Task 3:
 For our third component we implemented Social Interactions. The user can go to their page of friends, and directly message them, and receive a response (Figure 12). The user can immediately see their message that was sent, and it holds them in chronological order, with the top being the first message, and the last one sent is on the bottom. It is designed so the user can chat with any friends they have on their friends list. It is not anonymous as the user must be able to see which friend they are talking to directly.
 
 For the social interactions component, we decided to implement the chat task. Our task is to have users communicate with each other through a private chat, thus helping to create a support network for users. 
 
-![chat](/images/readme_images/chat.img)
+![chat](/images/readme_images/chat.png)
 Figure 12: Chat Page
 Component/Task 4:
 For this round of testing, we decided to implement the external data integration component. Our task is to have users navigate to the explore page, search content that makes them happy, and then look at various photos and videos that result (Figures 13-14).
@@ -68,8 +68,8 @@ Our task for this round of user testing was to implement a way for users to view
 By adding Youtube videos, our users can see types of videos they believe can increase their mode. This is very important, as apps and websites trying to help their users overall mood have an increase of users that are currently not having their best day. Without providing a way for users to increase it, or at least distracting themselves, the app would not work as intended. With the Youtube videos, users can distract themselves before and after writing about why their day was poor. For the user utilizing the app every day to check their progress, if they are happy that day, they can use the videos to keep the joy rolling.
 Adding images also has the same effect as the Youtube videos. We would like to have users be able to have something that they may laugh at when they cannot view a video or are not in the mood. By adding two types of media that are supposed to serve the same purpose, we have increased their likelihood of being utilized. With them also in an app created to increase overall happiness, we also have also eliminated the need to switch to another app to view videos for that exact purpose, creating a wider range of options for the user.
 
-![explore1](/images/readme_images/explore1.img)
-![explore2](/images/readme_images/explore2.img)
+![explore1](/images/readme_images/explore1.png)
+![explore2](/images/readme_images/explore2.png)
 Figures 13-14: Explore Page
 
 
