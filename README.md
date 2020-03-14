@@ -48,6 +48,7 @@ From this testing, we learned that we needed to relabel some of the page names t
 ![paper7](/images/readme_images/paper7.png)
 ![paper8](/images/readme_images/paper8.png)
 ![paper9](/images/readme_images/paper9.png)
+
 Figures 1-9: Paper Prototype
 
 
@@ -59,6 +60,7 @@ We chose the Data Visualization component, which showed three different graphs o
 The task we have decided to implement for this component involved the My Progress task page (Figure 10). We wanted a possible user to view their happiness progression in three different graphs: day, month, and year. By clicking one of the three buttons on the site (week, month, or year), the user is able to toggle through the three different data visualizations. 
 
 ![progress](/images/readme_images/progress.png)
+
 Figure 10: My Progress Page
 
 ### Component/Task 2:
@@ -68,6 +70,7 @@ The second component we chose to implement was the Data Collection component. We
 The task we chose to implement was for the data collection component involved the user to write about any highlights they might’ve had throughout the day. This would be done by going to the My Day tab linked through the My Week page on the menu, filling out a form, and then clicking submit. 
 
 ![my_day](/images/readme_images/my_day.png)
+
 Figure 11: My Day Form
 
 ### Component/Task 3:
@@ -77,6 +80,7 @@ For our third component we implemented Social Interactions. The user can go to t
 For the social interactions component, we decided to implement the chat task. Our task is to have users communicate with each other through a private chat, thus helping to create a support network for users. 
 
 ![chat](/images/readme_images/chat.png)
+
 Figure 12: Chat Page
 
 ### Component/Task 4:
@@ -91,6 +95,7 @@ Adding images also has the same effect as the Youtube videos. We would like to h
 
 ![explore1](/images/readme_images/explore1.png)
 ![explore2](/images/readme_images/explore2.png)
+
 Figures 13-14: Explore Page
 
 
